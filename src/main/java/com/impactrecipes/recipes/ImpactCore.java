@@ -2993,7 +2993,7 @@ public class ImpactCore implements Runnable {
 		//Communication Transmitter Hatch
 		RA.addAssemblerRecipe(new ItemStack[]{
 				ItemList.Hull_HV.get(1L),
-				ItemList.Field_Generator_HV.get(2L), ItemList.Sensor_HV.get(4L),
+				ItemList.Field_Generator_HV.get(2L), ItemList.Emitter_HV.get(4L),
 				GT_OreDictUnificator.get(OrePrefixes.plateDouble, Materials.HSLA, 4),
 				GT_OreDictUnificator.get(OrePrefixes.stickLong, Materials.StainlessSteel, 4),
 				GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Advanced, 4),
@@ -3003,7 +3003,7 @@ public class ImpactCore implements Runnable {
 		//Communication Receiver Hatch
 		RA.addAssemblerRecipe(new ItemStack[]{
 				ItemList.Hull_HV.get(1L),
-				ItemList.Field_Generator_HV.get(2L), ItemList.Emitter_HV.get(4L),
+				ItemList.Field_Generator_HV.get(2L), ItemList.Sensor_HV.get(4L),
 				GT_OreDictUnificator.get(OrePrefixes.plateDouble, Materials.HSLA, 4),
 				GT_OreDictUnificator.get(OrePrefixes.stickLong, Materials.StainlessSteel, 4),
 				GT_OreDictUnificator.get(OrePrefixes.circuit, Materials.Advanced, 4),
